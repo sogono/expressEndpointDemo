@@ -18,7 +18,17 @@
     <button id="b2" onclick="b2()">Post</button>
     <input type="text" id="t1">
   </div>
-  
+  <br>
+  <br>
+  <div>
+    <form action="/api/formData" method="POST">
+      <label for="fname">First name:</label>
+      <input type="text" id="fname" name="fname"><br><br>
+      <label for="lname">Last name:</label>
+      <input type="text" id="lname" name="lname"><br><br>
+      <input type="submit" value="Submit">
+    </form>
+  </div>
 </body>
 
 </html>
